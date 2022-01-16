@@ -1,0 +1,59 @@
+@charset "UTF-8";
+	
+/* ==========================================================================
+   CLASES GLOBALES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+   ========================================================================== */
+
+.container-gm{
+    max-width: 1060px;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.alert-primary-gm{
+    color: #4b7c99;
+    background-color: #e1f5fe;
+    border-color: #e1f5fe;
+}
+
+h1{
+    color: #5a5a5a;
+}
+
+
+.label-gm{
+    text-align: end;
+}
+
+
+.label-text-gm{
+    font-weight: bold;
+    padding: 0px;
+}
+
+
+.btn-primary-gm{
+
+    background:#337ab7;
+    color:white;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.errorinput {
+    border: solid 1px red !important;
+    background: #FFA3A3 !important;
+    color: red !important;
+    box-shadow: 0 0 5px 0 rgba(255, 0, 0, 1)
+}
+
+
+
+
+@media (max-width: 579px) {
+    .label-gm{
+        text-align: initial;
+    }
+}
